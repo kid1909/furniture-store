@@ -34,6 +34,7 @@
 }
 
 .search_bar_group {
+  margin-left: 30px;
   height: 46px;
   width: 700px;
   background-color: #f5f5f5;
@@ -76,6 +77,9 @@
   &:hover {
     background-color: #dfdfdf;
   }
+}
+.login_group2 {
+  display: none;
 }
 
 .favourite_cart_group {
@@ -120,6 +124,11 @@
 .store_location .fas {
   margin-right: 8px;
 }
+.row.submenu {
+  border-bottom: 1px solid #f5f5f5;
+}
+
+///////////////////////////////////////
 
 .modal__overlay {
   display: none;
@@ -157,7 +166,7 @@
   top: 0;
   left: -480px;
   position: fixed;
-  transition: left 0.3s ease-in;
+  transition: left 0.2s ease-in;
 }
 .active-menu {
   left: 0;
@@ -165,14 +174,196 @@
 
 .expand_menu2 {
   background-color: white;
-  color: black;
+  color: white;
   width: 480px;
   height: 900px;
   top: 0;
   left: 100%;
   position: fixed;
-  transition: left 0.3s ease-in;
+  transition: left 0.2s ease-in;
 }
 .active-menu2 {
   left: calc(100% - 480px);
+}
+.close_icon {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+// .close_icon i {
+//   margin-left: 15px;
+//   width: 40px;
+//   height: 40px;
+//   border-radius: 30px;
+//   padding-left: 14px;
+//   padding-top: 12px;
+//   &:hover {
+//     background-color: #dfdfdf;
+//   }
+// }
+
+@mixin closeIconStyles {
+  margin-left: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  padding-left: 14px;
+  padding-top: 12px;
+  &:hover {
+    background-color: #dfdfdf;
+  }
+}
+
+//////////////////////////////////////////////////////////////
+.close_icon2 {
+  margin-top: 20px;
+  margin-left: 400px;
+}
+.close_icon2 i {
+  margin-left: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  padding-left: 14px;
+  padding-top: 12px;
+  background-color: white;
+
+  //   &:hover {
+  //     background-color: #dfdfdf;
+  //   }
+}
+
+//////////////////////////////////////////////////////////////
+.expand_menu_group {
+  margin-left: 200px;
+  list-style: none;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.expand_menu_item {
+  padding-bottom: 10px;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+/// //////////////////////////////////////////////////////////////
+
+.expand_menu2 {
+  background-color: #0058a3;
+}
+.expand_menu_group2 {
+  margin-top: 40px;
+  color: white;
+}
+.expand_menu_item2 {
+  display: flex;
+
+  border-bottom: 1px solid #007cc1;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.close_icon i {
+  @include closeIconStyles;
+  // Additional styles for .close_icon i can be added here
+}
+
+.close_icon-sign_in {
+  @include closeIconStyles;
+  background-color: white;
+  width: 80px;
+  height: 40px;
+  padding-top: 9px;
+  color: black;
+  &:hover {
+    background-color: #dfdfdf;
+  }
+  // Additional styles for .close_icon-sign_in can be added here
+}
+
+.arrow_btn {
+  @include closeIconStyles;
+  background-color: white;
+  color: black;
+  padding-top: 9px;
+  padding-left: -5px;
+
+  &:hover {
+    background-color: #dfdfdf;
+  }
+}
+
+.mobile_user_group {
+  display: none;
+}
+
+@media only screen and (max-width: 1385px) {
+  .menu_group {
+    display: none;
+  }
+  .login_group {
+    display: none;
+  }
+  .favourite_cart_group {
+    display: none;
+  }
+  .login_group_small {
+    display: block;
+  }
+  .sub_menu {
+    display: none;
+  }
+  .location_group {
+    margin-top: 50px;
+    justify-content: space-between;
+  }
+  .postal_code {
+    position: relative;
+    left: -650px;
+  }
+  .mobile_user_group {
+    display: flex;
+
+    margin-left: 850px;
+    margin-top: -30px;
+  }
+  .mobile_user_group i {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+
+    padding-top: 11px;
+    padding-left: 11px;
+    &:hover {
+      background-color: #dfdfdf;
+      width: 40px;
+      height: 40px;
+      border-radius: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1239px) {
+  .login_group_small {
+  }
+  .mobile_user_group i {
+    margin-left: 5px;
+
+    &:hover {
+      background-color: #dfdfdf;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .search_bar_group {
+    width: 600px;
+    margin-left: 100px;
+  }
+  .location_group {
+    display: none;
+  }
 }

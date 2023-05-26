@@ -1,0 +1,100 @@
+.img_container {
+  /* Add any styles for the container if needed */
+}
+
+.img_container_item {
+  border-left: 30px;
+  height: 650px;
+  width: 600px;
+}
+
+@media (max-width: 1320px) {
+  .img_container_item {
+    width: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .img_container_item {
+    max-width: 700px;
+  }
+}
+
+// circle tag //
+.img_container:hover .price_tag_item {
+  display: flex;
+}
+.price_tag_item {
+  position: relative;
+  display: none;
+}
+
+.price_tag_item_outside {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  position: absolute;
+  top: -350px;
+  left: 100px;
+  transition: border 0.3s;
+  cursor: pointer;
+}
+.price_tag_item_outside::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 35px;
+  left: 10px;
+
+  border-color: transparent;
+}
+.price_tag_item_outside:hover {
+  border: 4px solid rgba(175, 166, 166, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.price_tag_item_inside {
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 12px;
+  transition: transform 0.1s;
+}
+
+.price_tag_item_outside:hover .price_tag_item_inside {
+  //   width: 17px;
+  //   height: 17px;
+  margin-left: 8px;
+  margin-top: 9px;
+  transform: scale(0.8);
+}
+
+.price_tag_item_des {
+  background-color: white;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 45px;
+  align-items: center;
+  display: none;
+  cursor: pointer;
+}
+
+.price_tag_item_outside:hover .price_tag_item_des {
+  display: flex;
+}
+.price_tag_content {
+  border-right: 1px solid #dfdfdf;
+  padding-right: 20px;
+  padding: 10px;
+}
+
+.price_tag_link {
+  padding: 4px;
+}

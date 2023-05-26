@@ -1,5 +1,7 @@
 import "./navbar.scss";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import logo from "../../assets/logo.svg";
 
 function Navbar() {
   const [modal, setModal] = useState(false);
@@ -37,9 +39,14 @@ function Navbar() {
             </div>
           </div>
           <div className="col l-1">
-            <div className="logo">logo</div>
+            <Link to="/">
+              {" "}
+              <div className="logo">
+                <img src={logo} alt="" />
+              </div>
+            </Link>
           </div>
-          <div className="col l-6">
+          <div className="col l-6 m-3">
             <div className="search_bar_group">
               <i className="fas fa-search"></i>
               <input
@@ -55,18 +62,31 @@ function Navbar() {
               <div className="login_label">Hej! Log in or sign up</div>
             </div>
           </div>
+
           <div className="col l-2">
             <div className="favourite_cart_group">
               <i className="fas fa-heart"></i>
               <i className="fas fa-shopping-cart"></i>
             </div>
           </div>
+
+          <div className="col l-12">
+            <div className="mobile_user_group">
+              <i className="fas fa-user" onClick={openMenu2}></i>
+              <i className="fas fa-heart"></i>
+              <i className="fas fa-shopping-cart"></i>
+              <i className="fas fa-bars" onClick={openMenu1}></i>
+            </div>
+          </div>
         </div>
 
-        <div className="row">
+        <div className="row submenu">
           <div className="col l-4">
             <div className="sub_menu">
-              <div className="sub_menu_item">Products</div>
+              <div className="sub_menu_item">
+                <Link to="/Products"> Products</Link>
+              </div>
+
               <div className="sub_menu_item">Rooms</div>
               <div className="sub_menu_item">Deals</div>
               <div className="sub_menu_item">Design</div>
@@ -92,10 +112,42 @@ function Navbar() {
         className={`modal__overlay ${modal ? "active-modal" : ""}`}
       ></div>
       <div className={`expand_menu ${menu1 ? "active-menu" : ""}`}>
-        <i className="fas fa-xmark"></i>
+        <div className="close_icon" onClick={closeMenu}>
+          {" "}
+          <i className="fas fa-times"></i>{" "}
+        </div>
+
+        <ul className="expand_menu_group">
+          <li className="expand_menu_item">Products</li>
+          <li className="expand_menu_item">Rooms</li>
+          <li className="expand_menu_item">Deals</li>
+          <li className="expand_menu_item">Design</li>
+        </ul>
       </div>
       <div className={`expand_menu2 ${menu2 ? "active-menu2" : ""}`}>
-        expand menu
+        <div className="close_icon2" onClick={closeMenu}>
+          <i className="fas fa-times"></i>{" "}
+        </div>{" "}
+        <ul className="expand_menu_group2">
+          <li className="expand_menu_item2">
+            <p className="sign_in_label"> Hej </p>
+            <div className="close_icon-sign_in"> Sign In</div>
+          </li>
+          <li className="expand_menu_item2">
+            <p className="more_info_label"> Join IKIA Family </p>
+            <div className="arrow_btn">
+              {" "}
+              <i className="fas fa-angle-right fa-lg"></i>{" "}
+            </div>
+          </li>
+          <li className="expand_menu_item2">
+            <p className="more_info_label2"> Join IKIA Business Network </p>
+            <div className="arrow_btn">
+              {" "}
+              <i className="fas fa-angle-right  fa-lg"></i>{" "}
+            </div>
+          </li>
+        </ul>
       </div>
     </>
   );

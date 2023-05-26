@@ -1,0 +1,31 @@
+.container_header {
+  background-color: #aaba9f;
+  padding: 50px;
+}
+.btn_happen {
+  width: 120px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+}
+.happen_gallery {
+  display: flex;
+}
+.happen_gallery_img {
+  height: 500px;
+  width: 380px;
+}
+.happen_gallery_container {
+  margin-right: 10px;
+}
+.happen_gallery_header {
+  padding: 20px;
+  font-size: 25px;
+}
+.happen_gallery_content {
+  padding: 20px;
+}
+.happen_gallery_link {
+  padding: 30px;
+}

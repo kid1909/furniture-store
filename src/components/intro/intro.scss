@@ -1,0 +1,26 @@
+.intro_button {
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 40px;
+  padding: 10px 15px 10px;
+  border-radius: 30px;
+  margin-top: 50px;
+  margin-left: 200px;
+
+  &:hover {
+    border: 3px black solid;
+  }
+}
+
+@media only screen and (max-width: 1163px) {
+  .intro_button_container {
+    margin-left: -150px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .intro_button_container {
+    margin-left: -150px;
+  }
+}
