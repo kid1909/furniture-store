@@ -1,28 +1,28 @@
 {
   "items": [
     {
-      "url": "/assets/happen-photo/photo1.jpg",
+      "url": "src/assets/happen-photo/photo1.jpg",
       "title": "Outdoorable",
       "content": "Make the most of the season with the perfect patio furniture! From comfortably-price couches to beautiful bistro sets, we have everything you need to enjoy every moment.",
       "link": "https://example.com/item1",
       "color": "#cfccc2"
     },
     {
-      "url": "/assets/happen-photo/photo2.jpg",
+      "url": "src/assets/happen-photo/photo2.jpg",
       "title": "20% off* ktichen appliances",
       "content": "A flaunt-worthy kitchen with all the extras doesn’t need to break the bank—find all the appliances you need to complete it for less at IKEA! Don’t worry, you get to keep the bragging rights. Valid May 18 – June 28.",
       "link": "https://example.com/item2",
       "color": "#dbb7b6"
     },
     {
-      "url": "/assets/happen-photo/photo3.jpg",
+      "url": "src/assets/happen-photo/photo3.jpg",
       "title": "15% off KASKER quartz kitchen countertops",
       "content": "Sometimes there are too many cooks in the kitchen…but you can never have too many looks! Cook up a stunning space from our selection of stylish countertops. Bon appetit! *KASKER countertops can only be purchased in-store. Valid May 18 – June 21.",
       "link": "https://example.com/item3",
       "color": "#559e96"
     },
     {
-      "url": "/assets/happen-photo/photo4.jpg",
+      "url": "src/assets/happen-photo/photo4.jpg",
       "title": "High standards. Lower prices",
       "content": "With smarter designs, flat packaging and efficient, high-volume production, we are always looking for ways to lower costs without ever compromising on quality.",
       "link": "https://example.com/item3",
@@ -30,7 +30,7 @@
       "font_color": "white"
     },
     {
-      "url": "/assets/happen-photo/photo5.jpg",
+      "url": "src/assets/happen-photo/photo5.jpg",
       "title": "High standards. Lower prices",
       "content": "With smarter designs, flat packaging and efficient, high-volume production, we are always looking for ways to lower costs without ever compromising on quality.",
       "link": "https://example.com/item3",
@@ -38,7 +38,7 @@
       "font_color": "black"
     },
     {
-      "url": "/assets/happen-photo/photo6.jpg",
+      "url": "src/assets/happen-photo/photo6.jpg",
       "title": "High standards. Lower prices",
       "content": "With smarter designs, flat packaging and efficient, high-volume production, we are always looking for ways to lower costs without ever compromising on quality.",
       "link": "https://example.com/item3",

@@ -2,42 +2,42 @@
   "items": [
     {
       "id": "1",
-      "url": "/assets/products/photo1.jpg",
+      "url": "src/assets/products/photo1.jpg",
       "name": "GRADVIS",
       "link": "https://example.com/item1",
       "price": "$8.99"
     },
     {
       "id": "2",
-      "url": "/assets/products/photo2.jpg",
+      "url": "src/assets/products/photo2.jpg",
       "name": "TÄRNÖ",
       "link": "https://example.com/item1",
       "price": "$85.00"
     },
     {
       "id": "3",
-      "url": "/assets/products/photo3.jpg",
+      "url": "src/assets/products/photo3.jpg",
       "name": "TROTTEN",
       "link": "https://example.com/item1",
       "price": "$129.00"
     },
     {
       "id": "4",
-      "url": "/assets/products/photo4.jpg",
+      "url": "src/assets/products/photo4.jpg",
       "name": "TROTTEN",
       "link": "https://example.com/item1",
       "price": "$299.00"
     },
     {
       "id": "5",
-      "url": "/assets/products/photo5.jpg",
+      "url": "src/assets/products/photo5.jpg",
       "name": "TÄRNÖ",
       "link": "https://example.com/item1",
       "price": "$85.00"
     },
     {
       "id": "6",
-      "url": "/assets/products/photo6.jpg",
+      "url": "src/assets/products/photo6.jpg",
       "name": "TROFAST",
       "link": "https://example.com/item1",
       "price": "$83.00"

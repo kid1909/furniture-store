@@ -1,6 +1,5 @@
 import "./happening.scss";
 import { useState, useEffect } from "react";
-
 import data from "../json/data.json.js";
 
 function Happening() {
