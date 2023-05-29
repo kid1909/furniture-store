@@ -24,3 +24,11 @@
     margin-left: -150px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .intro_button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 375px) {
+}

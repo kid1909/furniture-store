@@ -118,7 +118,9 @@ function Navbar() {
         </div>
 
         <ul className="expand_menu_group">
-          <li className="expand_menu_item">Products</li>
+          <li className="expand_menu_item">
+            <Link to="/Products"> Products </Link>
+          </li>
           <li className="expand_menu_item">Rooms</li>
           <li className="expand_menu_item">Deals</li>
           <li className="expand_menu_item">Design</li>

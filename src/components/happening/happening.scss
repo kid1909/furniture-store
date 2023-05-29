@@ -29,3 +29,35 @@
 .happen_gallery_link {
   padding: 30px;
 }
+
+@media only screen and (max-width: 768px) {
+  .happen_gallery_container {
+    width: 644px;
+    height: auto;
+  }
+  .happen_gallery_img {
+    width: 644px;
+    height: auto;
+  }
+  .happen_gallery_container {
+    display: none;
+  }
+
+  .happen_gallery_container:first-child {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container_header {
+    width: 320px;
+  }
+  .happen_gallery_container {
+    width: 280px;
+    height: auto;
+  }
+  .happen_gallery_img {
+    width: 280px;
+    height: auto;
+  }
+}

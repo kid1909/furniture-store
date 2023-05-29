@@ -98,3 +98,33 @@
 .price_tag_link {
   padding: 4px;
 }
+
+@media only screen and (max-width: 768px) {
+  .img_container {
+    width: 644px;
+    height: auto;
+  }
+  .img_container_item {
+    width: 644px;
+    height: auto;
+  }
+  .price_tag_item {
+    margin-top: -50px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .img_container {
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+  }
+  .img_container_item {
+    width: 300px;
+    height: auto;
+  }
+  .price_tag_item {
+    margin-top: 120px;
+    margin-left: -40px;
+  }
+}

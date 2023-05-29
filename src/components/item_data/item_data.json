@@ -12,7 +12,7 @@
       "url": "src/assets/products/photo2.avif",
       "name": "TÄRNÖ",
       "link": "https://example.com/item1",
-      "price": "$$85.00"
+      "price": "$85.00"
     },
     {
       "id": "3",
@@ -33,14 +33,14 @@
       "url": "src/assets/products/photo5.avif",
       "name": "TÄRNÖ",
       "link": "https://example.com/item1",
-      "price": "$$85.00"
+      "price": "$85.00"
     },
     {
       "id": "6",
       "url": "src/assets/products/photo6.avif",
       "name": "TROFAST",
       "link": "https://example.com/item1",
-      "price": "$$83.00"
+      "price": "$83.00"
     }
   ]
 }

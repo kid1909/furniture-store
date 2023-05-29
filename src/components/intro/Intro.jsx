@@ -5,7 +5,7 @@ function Intro() {
     <>
       <div className="grid wide">
         <div className="row">
-          <div className="col l-8 m-6">
+          <div className="col l-8 m-12">
             <h1 className="intro_header">Hej!</h1>
             <p className="intro_body">This is how we say “hello” in Swedish</p>
             <p className="intro_body2">
@@ -15,7 +15,7 @@ function Intro() {
           </div>
         </div>
         <div className="row">
-          <div className="col l-8 m-6">
+          <div className="col l-8 m-12">
             <h1 className="intro_header2">
               Invite nature’s magic into your home
             </h1>
