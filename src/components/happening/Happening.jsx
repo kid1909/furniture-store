@@ -1,6 +1,7 @@
 import "./happening.scss";
 import { useState, useEffect } from "react";
 import data from "../json/data.json.js";
+import photo1 from "../../assets/happen-photo/photo1.jpg";
 
 function Happening() {
   const [startIndex, setStartIndex] = useState(0);
@@ -41,7 +42,7 @@ function Happening() {
             <div className="happen_gallery">
               {/* Display current set of images */}
 
-              {data.items
+              {/* {data.items
                 .slice(startIndex, startIndex + 3)
                 .map((item, index) => (
                   <div
@@ -70,7 +71,48 @@ function Happening() {
                       Read more
                     </a>
                   </div>
-                ))}
+                ))} */}
+              <div className="happen_gallery_container">
+                <img className="happen_gallery_img" src={photo1} />
+                <h3 className="happen_gallery_header">Outdoorable</h3>
+                <p className="happen_gallery_content">
+                  {" "}
+                  Make the most of the season with the perfect patio furniture!
+                  From comfortably-price couches to beautiful bistro sets, we
+                  have everything you need to enjoy every moment.
+                </p>
+                <a href="" className="happen_gallery_link">
+                  Read more
+                </a>
+              </div>
+
+              <div className="happen_gallery_container">
+                <img className="happen_gallery_img" src={photo1} />
+                <h3 className="happen_gallery_header">Outdoorable</h3>
+                <p className="happen_gallery_content">
+                  {" "}
+                  Make the most of the season with the perfect patio furniture!
+                  From comfortably-price couches to beautiful bistro sets, we
+                  have everything you need to enjoy every moment.
+                </p>
+                <a href="" className="happen_gallery_link">
+                  Read more
+                </a>
+              </div>
+
+              <div className="happen_gallery_container">
+                <img className="happen_gallery_img" src={photo1} />
+                <h3 className="happen_gallery_header">Outdoorable</h3>
+                <p className="happen_gallery_content">
+                  {" "}
+                  Make the most of the season with the perfect patio furniture!
+                  From comfortably-price couches to beautiful bistro sets, we
+                  have everything you need to enjoy every moment.
+                </p>
+                <a href="" className="happen_gallery_link">
+                  Read more
+                </a>
+              </div>
 
               {/* Button to load next set of images */}
               <div className="happen_gallery_direction group">
