@@ -6,7 +6,7 @@ import "./components/styles/grid.css";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Products from "./pages/Products.jsx";
-import About from "./pages/About.jsx";
+import Rooms from "./pages/Rooms.jsx";
 function App() {
   return (
     <>
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Products" element={<Products />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/Rooms" element={<Rooms />} />
         </Routes>
       </Router>
     </>

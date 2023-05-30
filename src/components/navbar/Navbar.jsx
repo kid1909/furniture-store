@@ -86,8 +86,9 @@ function Navbar() {
               <div className="sub_menu_item">
                 <Link to="/Products"> Products</Link>
               </div>
-
-              <div className="sub_menu_item">Rooms</div>
+              <div className="sub_menu_item">
+                <Link to="/Rooms"> Rooms</Link>
+              </div>
               <div className="sub_menu_item">Deals</div>
               <div className="sub_menu_item">Design</div>
             </div>
@@ -121,7 +122,7 @@ function Navbar() {
           <li className="expand_menu_item">
             <Link to="/Products"> Products </Link>
           </li>
-          <li className="expand_menu_item">Rooms</li>
+          <Link to="/Rooms"> Rooms </Link>
           <li className="expand_menu_item">Deals</li>
           <li className="expand_menu_item">Design</li>
         </ul>

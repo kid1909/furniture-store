@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "url": "src/assets/products/photo1.jpg",
+      "name": "Bedroom",
+      "link": "https://example.com/item1",
+      "price": "$8.99"
+    },
+    {
+      "id": "2",
+      "url": "src/assets/products/photo2.jpg",
+      "name": "Baby & kids room",
+      "link": "https://example.com/item1",
+      "price": "$85.00"
+    },
+    {
+      "id": "3",
+      "url": "src/assets/products/photo3.jpg",
+      "name": "Living room",
+      "link": "https://example.com/item1",
+      "price": "$129.00"
+    },
+    {
+      "id": "4",
+      "url": "src/assets/products/photo4.jpg",
+      "name": "Home office",
+      "link": "https://example.com/item1",
+      "price": "$299.00"
+    },
+    {
+      "id": "5",
+      "url": "src/assets/products/photo5.jpg",
+      "name": "Kitchen",
+      "link": "https://example.com/item1",
+      "price": "$85.00"
+    },
+    {
+      "id": "6",
+      "url": "src/assets/products/photo6.jpg",
+      "name": "Dining",
+      "link": "https://example.com/item1",
+      "price": "$83.00"
+    },
+    {
+      "id": "7",
+      "url": "src/assets/products/photo6.jpg",
+      "name": "Hallway",
+      "link": "https://example.com/item1",
+      "price": "$83.00"
+    },
+    {
+      "id": "8",
+      "url": "src/assets/products/photo6.jpg",
+      "name": "Outdoor",
+      "link": "https://example.com/item1",
+      "price": "$83.00"
+    },
+    {
+      "id": "9",
+      "url": "src/assets/products/photo6.jpg",
+      "name": "Bathroom",
+      "link": "https://example.com/item1",
+      "price": "$83.00"
+    }
+  ]
+}
